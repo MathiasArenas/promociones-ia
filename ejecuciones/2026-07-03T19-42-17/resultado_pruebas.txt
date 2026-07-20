@@ -1,0 +1,49 @@
+===== INICIO EJECUCION =====
+
+[3/7/2026, 16:42:35] Archivo utilizado: C:\Users\marenas\Desktop\Globant\Test\ejecuciones\2026-07-03T19-42-17\input.json
+[3/7/2026, 16:42:35] Total de promociones: 5
+[3/7/2026, 16:42:35] ------------------------------------------------
+[3/7/2026, 16:42:35] INICIO SKU=161
+[3/7/2026, 16:42:35] Cantidad=3
+[3/7/2026, 16:42:35] Resultado esperado=undefined
+[3/7/2026, 16:42:35] Buscando SKU 161
+[3/7/2026, 16:42:39] SKU 161 encontrado correctamente
+[3/7/2026, 16:42:39] Cantidad ajustada a 3
+[3/7/2026, 16:42:39] Producto agregado
+[3/7/2026, 16:42:39] SKU=161 OK
+[3/7/2026, 16:42:39] Tiempo=4.01 segundos
+[3/7/2026, 16:42:39] ------------------------------------------------
+[3/7/2026, 16:42:39] INICIO SKU=208
+[3/7/2026, 16:42:39] Cantidad=9
+[3/7/2026, 16:42:39] Resultado esperado=undefined
+[3/7/2026, 16:42:39] Buscando SKU 208
+[3/7/2026, 16:42:51] ERROR: SKU 208 no encontrado
+[3/7/2026, 16:42:52] ------------------------------------------------
+[3/7/2026, 16:42:52] INICIO SKU=321
+[3/7/2026, 16:42:52] Cantidad=4
+[3/7/2026, 16:42:52] Resultado esperado=undefined
+[3/7/2026, 16:42:52] Buscando SKU 321
+[3/7/2026, 16:42:55] SKU 321 encontrado correctamente
+[3/7/2026, 16:42:55] Cantidad ajustada a 4
+[3/7/2026, 16:42:55] Producto agregado
+[3/7/2026, 16:42:55] SKU=321 OK
+[3/7/2026, 16:42:55] Tiempo=3.55 segundos
+[3/7/2026, 16:42:55] ------------------------------------------------
+[3/7/2026, 16:42:55] INICIO SKU=251
+[3/7/2026, 16:42:55] Cantidad=1
+[3/7/2026, 16:42:55] Resultado esperado=undefined
+[3/7/2026, 16:42:55] Buscando SKU 251
+[3/7/2026, 16:42:59] SKU 251 encontrado correctamente
+[3/7/2026, 16:42:59] Producto agregado
+[3/7/2026, 16:43:00] SKU=251 OK
+[3/7/2026, 16:43:00] Tiempo=4.43 segundos
+[3/7/2026, 16:43:00] ------------------------------------------------
+[3/7/2026, 16:43:00] INICIO SKU=161
+[3/7/2026, 16:43:00] Cantidad=2
+[3/7/2026, 16:43:00] Resultado esperado=undefined
+[3/7/2026, 16:43:00] Buscando SKU 161
+[3/7/2026, 16:43:12] ERROR: SKU 161 no encontrado
+[3/7/2026, 16:43:12] ================================================
+[3/7/2026, 16:43:12] Promociones procesadas: 3
+[3/7/2026, 16:43:12] Tiempo total: 36.75 segundos
+[3/7/2026, 16:43:12] FIN DE EJECUCION

@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "simulador-promociones": {
+      "command": "node",
+      "args": [
+        "C:/Users/marenas/Desktop/Globant/Test/mcp/server.js"
+      ]
+    }
+  }
+}

@@ -1,0 +1,217 @@
+===== INICIO EJECUCION =====
+
+[3/7/2026, 11:31:57] Archivo utilizado: C:\Users\marenas\Desktop\Globant\Test\ejecuciones\2026-07-03T14-31-44\input.json
+[3/7/2026, 11:31:57] Total de promociones: 23
+[3/7/2026, 11:31:57] ------------------------------------------------
+[3/7/2026, 11:31:57] INICIO SKU=466557
+[3/7/2026, 11:31:57] Cantidad=1
+[3/7/2026, 11:31:57] Resultado esperado=undefined
+[3/7/2026, 11:31:57] Buscando SKU 466557
+[3/7/2026, 11:32:09] ERROR: SKU 466557 no encontrado
+[3/7/2026, 11:32:10] ------------------------------------------------
+[3/7/2026, 11:32:10] INICIO SKU=524545
+[3/7/2026, 11:32:10] Cantidad=1
+[3/7/2026, 11:32:10] Resultado esperado=undefined
+[3/7/2026, 11:32:10] Buscando SKU 524545
+[3/7/2026, 11:32:22] ERROR: SKU 524545 no encontrado
+[3/7/2026, 11:32:22] ------------------------------------------------
+[3/7/2026, 11:32:22] INICIO SKU=550886
+[3/7/2026, 11:32:22] Cantidad=3
+[3/7/2026, 11:32:22] Resultado esperado=undefined
+[3/7/2026, 11:32:22] Buscando SKU 550886
+[3/7/2026, 11:32:34] ERROR: SKU 550886 no encontrado
+[3/7/2026, 11:32:34] ------------------------------------------------
+[3/7/2026, 11:32:34] INICIO SKU=339192
+[3/7/2026, 11:32:34] Cantidad=1
+[3/7/2026, 11:32:34] Resultado esperado=undefined
+[3/7/2026, 11:32:34] Buscando SKU 339192
+[3/7/2026, 11:32:37] SKU 339192 encontrado correctamente
+[3/7/2026, 11:32:38] Producto agregado
+[3/7/2026, 11:32:38] SKU=339192 OK
+[3/7/2026, 11:32:38] Tiempo=3.78 segundos
+[3/7/2026, 11:32:38] ------------------------------------------------
+[3/7/2026, 11:32:38] INICIO SKU=479254
+[3/7/2026, 11:32:38] Cantidad=1
+[3/7/2026, 11:32:38] Resultado esperado=undefined
+[3/7/2026, 11:32:38] Buscando SKU 479254
+[3/7/2026, 11:32:41] SKU 479254 encontrado correctamente
+[3/7/2026, 11:32:41] Producto agregado
+[3/7/2026, 11:32:41] SKU=479254 OK
+[3/7/2026, 11:32:41] Tiempo=3.10 segundos
+[3/7/2026, 11:32:41] ------------------------------------------------
+[3/7/2026, 11:32:41] INICIO SKU=198107
+[3/7/2026, 11:32:41] Cantidad=1
+[3/7/2026, 11:32:41] Resultado esperado=undefined
+[3/7/2026, 11:32:41] Buscando SKU 198107
+[3/7/2026, 11:32:44] SKU 198107 encontrado correctamente
+[3/7/2026, 11:32:44] Producto agregado
+[3/7/2026, 11:32:44] SKU=198107 OK
+[3/7/2026, 11:32:44] Tiempo=3.53 segundos
+[3/7/2026, 11:32:44] ------------------------------------------------
+[3/7/2026, 11:32:44] INICIO SKU=554525
+[3/7/2026, 11:32:44] Cantidad=2
+[3/7/2026, 11:32:44] Resultado esperado=undefined
+[3/7/2026, 11:32:44] Buscando SKU 554525
+[3/7/2026, 11:32:49] SKU 554525 encontrado correctamente
+[3/7/2026, 11:32:49] Cantidad ajustada a 2
+[3/7/2026, 11:32:51] Producto agregado
+[3/7/2026, 11:32:51] SKU=554525 OK
+[3/7/2026, 11:32:51] Tiempo=6.67 segundos
+[3/7/2026, 11:32:51] ------------------------------------------------
+[3/7/2026, 11:32:51] INICIO SKU=219172
+[3/7/2026, 11:32:51] Cantidad=1
+[3/7/2026, 11:32:51] Resultado esperado=undefined
+[3/7/2026, 11:32:51] Buscando SKU 219172
+[3/7/2026, 11:32:57] SKU 219172 encontrado correctamente
+[3/7/2026, 11:32:59] Producto agregado
+[3/7/2026, 11:32:59] SKU=219172 OK
+[3/7/2026, 11:32:59] Tiempo=8.07 segundos
+[3/7/2026, 11:32:59] ------------------------------------------------
+[3/7/2026, 11:32:59] INICIO SKU=144176
+[3/7/2026, 11:32:59] Cantidad=1
+[3/7/2026, 11:32:59] Resultado esperado=undefined
+[3/7/2026, 11:32:59] Buscando SKU 144176
+[3/7/2026, 11:33:07] SKU 144176 encontrado correctamente
+[3/7/2026, 11:33:09] Producto agregado
+[3/7/2026, 11:33:09] SKU=144176 OK
+[3/7/2026, 11:33:09] Tiempo=10.09 segundos
+[3/7/2026, 11:33:09] ------------------------------------------------
+[3/7/2026, 11:33:09] INICIO SKU=12765
+[3/7/2026, 11:33:09] Cantidad=1
+[3/7/2026, 11:33:09] Resultado esperado=undefined
+[3/7/2026, 11:33:09] Buscando SKU 12765
+[3/7/2026, 11:33:14] SKU 12765 encontrado correctamente
+[3/7/2026, 11:33:14] Producto agregado
+[3/7/2026, 11:33:14] SKU=12765 OK
+[3/7/2026, 11:33:14] Tiempo=5.08 segundos
+[3/7/2026, 11:33:14] ------------------------------------------------
+[3/7/2026, 11:33:14] INICIO SKU=144554
+[3/7/2026, 11:33:14] Cantidad=1
+[3/7/2026, 11:33:14] Resultado esperado=undefined
+[3/7/2026, 11:33:14] Buscando SKU 144554
+[3/7/2026, 11:33:17] SKU 144554 encontrado correctamente
+[3/7/2026, 11:33:17] Producto agregado
+[3/7/2026, 11:33:17] SKU=144554 OK
+[3/7/2026, 11:33:17] Tiempo=3.22 segundos
+[3/7/2026, 11:33:17] ------------------------------------------------
+[3/7/2026, 11:33:17] INICIO SKU=212025
+[3/7/2026, 11:33:17] Cantidad=1
+[3/7/2026, 11:33:17] Resultado esperado=undefined
+[3/7/2026, 11:33:17] Buscando SKU 212025
+[3/7/2026, 11:33:22] SKU 212025 encontrado correctamente
+[3/7/2026, 11:33:22] Producto agregado
+[3/7/2026, 11:33:22] SKU=212025 OK
+[3/7/2026, 11:33:22] Tiempo=4.60 segundos
+[3/7/2026, 11:33:22] ------------------------------------------------
+[3/7/2026, 11:33:22] INICIO SKU=596471
+[3/7/2026, 11:33:22] Cantidad=1
+[3/7/2026, 11:33:22] Resultado esperado=undefined
+[3/7/2026, 11:33:22] Buscando SKU 596471
+[3/7/2026, 11:33:26] SKU 596471 encontrado correctamente
+[3/7/2026, 11:33:26] Producto agregado
+[3/7/2026, 11:33:26] SKU=596471 OK
+[3/7/2026, 11:33:26] Tiempo=3.92 segundos
+[3/7/2026, 11:33:26] ------------------------------------------------
+[3/7/2026, 11:33:26] INICIO SKU=502647
+[3/7/2026, 11:33:26] Cantidad=6
+[3/7/2026, 11:33:26] Resultado esperado=undefined
+[3/7/2026, 11:33:26] Buscando SKU 502647
+[3/7/2026, 11:33:29] SKU 502647 encontrado correctamente
+[3/7/2026, 11:33:29] Cantidad ajustada a 6
+[3/7/2026, 11:33:29] Producto agregado
+[3/7/2026, 11:33:29] SKU=502647 OK
+[3/7/2026, 11:33:29] Tiempo=3.46 segundos
+[3/7/2026, 11:33:29] ------------------------------------------------
+[3/7/2026, 11:33:29] INICIO SKU=3610
+[3/7/2026, 11:33:29] Cantidad=4
+[3/7/2026, 11:33:29] Resultado esperado=undefined
+[3/7/2026, 11:33:29] Buscando SKU 3610
+[3/7/2026, 11:33:35] SKU 3610 encontrado correctamente
+[3/7/2026, 11:33:35] Cantidad ajustada a 4
+[3/7/2026, 11:33:35] Producto agregado
+[3/7/2026, 11:33:35] SKU=3610 OK
+[3/7/2026, 11:33:35] Tiempo=5.61 segundos
+[3/7/2026, 11:33:35] ------------------------------------------------
+[3/7/2026, 11:33:35] INICIO SKU=582341
+[3/7/2026, 11:33:35] Cantidad=6
+[3/7/2026, 11:33:35] Resultado esperado=undefined
+[3/7/2026, 11:33:35] Buscando SKU 582341
+[3/7/2026, 11:33:39] SKU 582341 encontrado correctamente
+[3/7/2026, 11:33:39] Cantidad ajustada a 6
+[3/7/2026, 11:33:39] Producto agregado
+[3/7/2026, 11:33:40] SKU=582341 OK
+[3/7/2026, 11:33:40] Tiempo=4.53 segundos
+[3/7/2026, 11:33:40] ------------------------------------------------
+[3/7/2026, 11:33:40] INICIO SKU=192620
+[3/7/2026, 11:33:40] Cantidad=2
+[3/7/2026, 11:33:40] Resultado esperado=undefined
+[3/7/2026, 11:33:40] Buscando SKU 192620
+[3/7/2026, 11:33:44] SKU 192620 encontrado correctamente
+[3/7/2026, 11:33:44] Cantidad ajustada a 2
+[3/7/2026, 11:33:44] Producto agregado
+[3/7/2026, 11:33:44] SKU=192620 OK
+[3/7/2026, 11:33:44] Tiempo=4.57 segundos
+[3/7/2026, 11:33:44] ------------------------------------------------
+[3/7/2026, 11:33:44] INICIO SKU=590253
+[3/7/2026, 11:33:44] Cantidad=2
+[3/7/2026, 11:33:44] Resultado esperado=undefined
+[3/7/2026, 11:33:44] Buscando SKU 590253
+[3/7/2026, 11:33:49] SKU 590253 encontrado correctamente
+[3/7/2026, 11:33:49] Cantidad ajustada a 2
+[3/7/2026, 11:33:49] Producto agregado
+[3/7/2026, 11:33:49] SKU=590253 OK
+[3/7/2026, 11:33:49] Tiempo=5.01 segundos
+[3/7/2026, 11:33:49] ------------------------------------------------
+[3/7/2026, 11:33:49] INICIO SKU=221258
+[3/7/2026, 11:33:49] Cantidad=3
+[3/7/2026, 11:33:49] Resultado esperado=undefined
+[3/7/2026, 11:33:49] Buscando SKU 221258
+[3/7/2026, 11:33:54] SKU 221258 encontrado correctamente
+[3/7/2026, 11:33:54] Cantidad ajustada a 3
+[3/7/2026, 11:33:54] Producto agregado
+[3/7/2026, 11:33:54] SKU=221258 OK
+[3/7/2026, 11:33:54] Tiempo=4.76 segundos
+[3/7/2026, 11:33:54] ------------------------------------------------
+[3/7/2026, 11:33:54] INICIO SKU=63009
+[3/7/2026, 11:33:54] Cantidad=2
+[3/7/2026, 11:33:54] Resultado esperado=undefined
+[3/7/2026, 11:33:54] Buscando SKU 63009
+[3/7/2026, 11:33:59] SKU 63009 encontrado correctamente
+[3/7/2026, 11:33:59] Cantidad ajustada a 2
+[3/7/2026, 11:33:59] Producto agregado
+[3/7/2026, 11:33:59] SKU=63009 OK
+[3/7/2026, 11:33:59] Tiempo=5.06 segundos
+[3/7/2026, 11:33:59] ------------------------------------------------
+[3/7/2026, 11:33:59] INICIO SKU=555595
+[3/7/2026, 11:33:59] Cantidad=2
+[3/7/2026, 11:33:59] Resultado esperado=undefined
+[3/7/2026, 11:33:59] Buscando SKU 555595
+[3/7/2026, 11:34:04] SKU 555595 encontrado correctamente
+[3/7/2026, 11:34:04] Cantidad ajustada a 2
+[3/7/2026, 11:34:04] Producto agregado
+[3/7/2026, 11:34:04] SKU=555595 OK
+[3/7/2026, 11:34:04] Tiempo=5.04 segundos
+[3/7/2026, 11:34:04] ------------------------------------------------
+[3/7/2026, 11:34:04] INICIO SKU=287475
+[3/7/2026, 11:34:04] Cantidad=6
+[3/7/2026, 11:34:04] Resultado esperado=undefined
+[3/7/2026, 11:34:04] Buscando SKU 287475
+[3/7/2026, 11:34:09] SKU 287475 encontrado correctamente
+[3/7/2026, 11:34:09] Cantidad ajustada a 6
+[3/7/2026, 11:34:09] Producto agregado
+[3/7/2026, 11:34:09] SKU=287475 OK
+[3/7/2026, 11:34:09] Tiempo=5.03 segundos
+[3/7/2026, 11:34:09] ------------------------------------------------
+[3/7/2026, 11:34:09] INICIO SKU=501961
+[3/7/2026, 11:34:09] Cantidad=4
+[3/7/2026, 11:34:09] Resultado esperado=undefined
+[3/7/2026, 11:34:09] Buscando SKU 501961
+[3/7/2026, 11:34:12] SKU 501961 encontrado correctamente
+[3/7/2026, 11:34:12] Cantidad ajustada a 4
+[3/7/2026, 11:34:12] Producto agregado
+[3/7/2026, 11:34:12] SKU=501961 OK
+[3/7/2026, 11:34:12] Tiempo=3.05 segundos
+[3/7/2026, 11:34:12] ================================================
+[3/7/2026, 11:34:12] Promociones procesadas: 20
+[3/7/2026, 11:34:12] Tiempo total: 134.72 segundos
+[3/7/2026, 11:34:12] FIN DE EJECUCION

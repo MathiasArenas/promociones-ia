@@ -1,0 +1,35 @@
+===== INICIO EJECUCION =====
+
+[3/7/2026, 16:47:43] Archivo utilizado: C:\Users\marenas\Desktop\Globant\Test\ejecuciones\2026-07-03T19-47-27\input.json
+[3/7/2026, 16:47:43] Total de promociones: 4
+[3/7/2026, 16:47:43] ------------------------------------------------
+[3/7/2026, 16:47:43] INICIO SKU=415263
+[3/7/2026, 16:47:43] Cantidad=1
+[3/7/2026, 16:47:43] Resultado esperado=undefined
+[3/7/2026, 16:47:43] Buscando SKU 415263
+[3/7/2026, 16:47:47] SKU 415263 encontrado correctamente
+[3/7/2026, 16:47:47] Producto agregado
+[3/7/2026, 16:47:47] SKU=415263 OK
+[3/7/2026, 16:47:47] Tiempo=4.30 segundos
+[3/7/2026, 16:47:47] ------------------------------------------------
+[3/7/2026, 16:47:47] INICIO SKU=415263
+[3/7/2026, 16:47:47] Cantidad=1
+[3/7/2026, 16:47:47] Resultado esperado=undefined
+[3/7/2026, 16:47:47] Buscando SKU 415263
+[3/7/2026, 16:47:59] ERROR: SKU 415263 no encontrado
+[3/7/2026, 16:48:00] ------------------------------------------------
+[3/7/2026, 16:48:00] INICIO SKU=415263
+[3/7/2026, 16:48:00] Cantidad=1
+[3/7/2026, 16:48:00] Resultado esperado=undefined
+[3/7/2026, 16:48:00] Buscando SKU 415263
+[3/7/2026, 16:48:12] ERROR: SKU 415263 no encontrado
+[3/7/2026, 16:48:12] ------------------------------------------------
+[3/7/2026, 16:48:12] INICIO SKU=415263
+[3/7/2026, 16:48:12] Cantidad=1
+[3/7/2026, 16:48:12] Resultado esperado=undefined
+[3/7/2026, 16:48:12] Buscando SKU 415263
+[3/7/2026, 16:48:24] ERROR: SKU 415263 no encontrado
+[3/7/2026, 16:48:24] ================================================
+[3/7/2026, 16:48:24] Promociones procesadas: 1
+[3/7/2026, 16:48:24] Tiempo total: 41.38 segundos
+[3/7/2026, 16:48:24] FIN DE EJECUCION

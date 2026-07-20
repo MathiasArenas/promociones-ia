@@ -1,0 +1,23 @@
+
+Running 1 test using 1 worker
+
+[1/1] [chromium] › tests\AltaArticulos.spec.ts:8:5 › agregar productos desde JSON usando helpers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  1 passed (13.8s)

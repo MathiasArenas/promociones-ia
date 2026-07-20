@@ -1,0 +1,17 @@
+===== INICIO EJECUCION =====
+
+[3/7/2026, 11:29:50] Archivo utilizado: C:\Users\marenas\Desktop\Globant\Test\ejecuciones\2026-07-03T14-29-38\input.json
+[3/7/2026, 11:29:50] Total de promociones: 1
+[3/7/2026, 11:29:50] ------------------------------------------------
+[3/7/2026, 11:29:50] INICIO SKU=524545
+[3/7/2026, 11:29:50] Cantidad=1
+[3/7/2026, 11:29:50] Resultado esperado=undefined
+[3/7/2026, 11:29:50] Buscando SKU 524545
+[3/7/2026, 11:29:54] SKU 524545 encontrado correctamente
+[3/7/2026, 11:29:54] Producto agregado
+[3/7/2026, 11:29:54] SKU=524545 OK
+[3/7/2026, 11:29:54] Tiempo=4.16 segundos
+[3/7/2026, 11:29:54] ================================================
+[3/7/2026, 11:29:54] Promociones procesadas: 1
+[3/7/2026, 11:29:54] Tiempo total: 4.18 segundos
+[3/7/2026, 11:29:54] FIN DE EJECUCION

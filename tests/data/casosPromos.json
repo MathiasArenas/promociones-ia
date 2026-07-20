@@ -1,0 +1,182 @@
+[
+  {
+    "Código": "524545",
+    "cantidad de unidades": 1,
+    "resultado esperado": "299.00"
+  },
+  {
+    "Código": "596611",
+    "cantidad de unidades": 1,
+    "resultado esperado": "249.00"
+  },
+  {
+    "Código": "603054",
+    "cantidad de unidades": 1,
+    "resultado esperado": "549.00"
+  },
+  {
+    "Código": "466557",
+    "cantidad de unidades": 1,
+    "resultado esperado": "249.00"
+  },
+  {
+    "Código": "587763",
+    "cantidad de unidades": 1,
+    "resultado esperado": "1249.00"
+  },
+  {
+    "Código": "596585",
+    "cantidad de unidades": 1,
+    "resultado esperado": "2099.00"
+  },
+  {
+    "Código": "550886",
+    "cantidad de unidades": 3,
+    "resultado esperado": "3x2"
+  },
+  {
+    "Código": "550914",
+    "cantidad de unidades": 6,
+    "resultado esperado": "3x2"
+  },
+  {
+    "Código": "550915",
+    "cantidad de unidades": 2,
+    "resultado esperado": "3x2"
+  },
+  {
+    "Código": "550916",
+    "cantidad de unidades": 4,
+    "resultado esperado": "3x2"
+  },
+  {
+    "Código": "144176",
+    "cantidad de unidades": 1,
+    "resultado esperado": "30.0%"
+  },
+  {
+    "Código": "595204",
+    "cantidad de unidades": 1,
+    "resultado esperado": "30.0%"
+  },
+  {
+    "Código": "600130",
+    "cantidad de unidades": 1,
+    "resultado esperado": "30.0%"
+  },
+  {
+    "Código": "12765",
+    "cantidad de unidades": 1,
+    "resultado esperado": "20.0%"
+  },
+  {
+    "Código": "144554",
+    "cantidad de unidades": 1,
+    "resultado esperado": "25.0%"
+  },
+  {
+    "Código": "596471",
+    "cantidad de unidades": 1,
+    "resultado esperado": "40.0%"
+  },
+  {
+    "Código": "593064",
+    "cantidad de unidades": 1,
+    "resultado esperado": "40.0%"
+  },
+  {
+    "Código": "592871",
+    "cantidad de unidades": 1,
+    "resultado esperado": "40.0%"
+  },
+  {
+    "Código": "502647",
+    "cantidad de unidades": 6,
+    "resultado esperado": "6x5"
+  },
+  {
+    "Código": "569701",
+    "cantidad de unidades": 5,
+    "resultado esperado": "6x5"
+  },
+  {
+    "Código": "131131",
+    "cantidad de unidades": 12,
+    "resultado esperado": "6x5"
+  },
+  {
+    "Código": "3610",
+    "cantidad de unidades": 4,
+    "resultado esperado": "4x3"
+  },
+  {
+    "Código": "398608",
+    "cantidad de unidades": 3,
+    "resultado esperado": "4x3"
+  },
+  {
+    "Código": "265034",
+    "cantidad de unidades": 8,
+    "resultado esperado": "4x3"
+  },
+  {
+    "Código": "192620",
+    "cantidad de unidades": 2,
+    "resultado esperado": "2x$405"
+  },
+  {
+    "Código": "590253",
+    "cantidad de unidades": 2,
+    "resultado esperado": "2x$60"
+  },
+  {
+    "Código": "221258",
+    "cantidad de unidades": 3,
+    "resultado esperado": "3x$205"
+  },
+  {
+    "Código": "170327",
+    "cantidad de unidades": 2,
+    "resultado esperado": "2x$195"
+  },
+  {
+    "Código": "63009",
+    "cantidad de unidades": 2,
+    "resultado esperado": "2x$299"
+  },
+  {
+    "Código": "555595",
+    "cantidad de unidades": 2,
+    "resultado esperado": "2x$90"
+  },
+  {
+    "Código": "67683",
+    "cantidad de unidades": 1,
+    "resultado esperado": "23.2%"
+  },
+  {
+    "Código": "67702",
+    "cantidad de unidades": 1,
+    "resultado esperado": "28.6%"
+  },
+  {
+    "Código": "67704",
+    "cantidad de unidades": 1,
+    "resultado esperado": "20.0%"
+  },
+  {
+    "Código": "2414",
+    "cantidad de unidades": 1,
+    "resultado esperado": "16.5%"
+  },
+  {
+    "Código": "28944",
+    "cantidad de unidades": 1,
+    "resultado esperado": "15.4%"
+  },
+  {
+    "Código": "35719",
+    "cantidad de unidades": 1,
+    "resultado esperado": "18.9%"
+  }
+]

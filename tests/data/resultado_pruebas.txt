@@ -1,0 +1,78 @@
+===== INICIO EJECUCION =====
+
+[3/7/2026, 11:31:33] Archivo utilizado: C:\Users\marenas\Desktop\Globant\Test\tests\data\casosPromos.json
+[3/7/2026, 11:31:33] Total de promociones: 36
+[3/7/2026, 11:31:33] ------------------------------------------------
+[3/7/2026, 11:31:33] INICIO SKU=524545
+[3/7/2026, 11:31:33] Cantidad=1
+[3/7/2026, 11:31:33] Resultado esperado=299.00
+[3/7/2026, 11:31:33] Buscando SKU 524545
+[3/7/2026, 11:31:38] SKU 524545 encontrado correctamente
+[3/7/2026, 11:31:38] Producto agregado
+[3/7/2026, 11:31:38] SKU=524545 OK
+[3/7/2026, 11:31:38] Tiempo=4.59 segundos
+[3/7/2026, 11:31:38] ------------------------------------------------
+[3/7/2026, 11:31:38] INICIO SKU=596611
+[3/7/2026, 11:31:38] Cantidad=1
+[3/7/2026, 11:31:38] Resultado esperado=249.00
+[3/7/2026, 11:31:38] Buscando SKU 596611
+[3/7/2026, 11:31:41] SKU 596611 encontrado correctamente
+[3/7/2026, 11:31:41] Producto agregado
+[3/7/2026, 11:31:41] SKU=596611 OK
+[3/7/2026, 11:31:41] Tiempo=3.41 segundos
+[3/7/2026, 11:31:41] ------------------------------------------------
+[3/7/2026, 11:31:41] INICIO SKU=603054
+[3/7/2026, 11:31:41] Cantidad=1
+[3/7/2026, 11:31:41] Resultado esperado=549.00
+[3/7/2026, 11:31:41] Buscando SKU 603054
+[3/7/2026, 11:31:44] SKU 603054 encontrado correctamente
+[3/7/2026, 11:31:44] Producto agregado
+[3/7/2026, 11:31:44] SKU=603054 OK
+[3/7/2026, 11:31:44] Tiempo=2.91 segundos
+[3/7/2026, 11:31:44] ------------------------------------------------
+[3/7/2026, 11:31:44] INICIO SKU=466557
+[3/7/2026, 11:31:44] Cantidad=1
+[3/7/2026, 11:31:44] Resultado esperado=249.00
+[3/7/2026, 11:31:44] Buscando SKU 466557
+[3/7/2026, 11:31:48] SKU 466557 encontrado correctamente
+[3/7/2026, 11:31:48] Producto agregado
+[3/7/2026, 11:31:48] SKU=466557 OK
+[3/7/2026, 11:31:48] Tiempo=3.42 segundos
+[3/7/2026, 11:31:48] ------------------------------------------------
+[3/7/2026, 11:31:48] INICIO SKU=587763
+[3/7/2026, 11:31:48] Cantidad=1
+[3/7/2026, 11:31:48] Resultado esperado=1249.00
+[3/7/2026, 11:31:48] Buscando SKU 587763
+[3/7/2026, 11:31:51] SKU 587763 encontrado correctamente
+[3/7/2026, 11:31:51] Producto agregado
+[3/7/2026, 11:31:51] SKU=587763 OK
+[3/7/2026, 11:31:51] Tiempo=3.02 segundos
+[3/7/2026, 11:31:51] ------------------------------------------------
+[3/7/2026, 11:31:51] INICIO SKU=596585
+[3/7/2026, 11:31:51] Cantidad=1
+[3/7/2026, 11:31:51] Resultado esperado=2099.00
+[3/7/2026, 11:31:51] Buscando SKU 596585
+[3/7/2026, 11:31:54] SKU 596585 encontrado correctamente
+[3/7/2026, 11:31:54] Producto agregado
+[3/7/2026, 11:31:54] SKU=596585 OK
+[3/7/2026, 11:31:54] Tiempo=3.32 segundos
+[3/7/2026, 11:31:54] ------------------------------------------------
+[3/7/2026, 11:31:54] INICIO SKU=550886
+[3/7/2026, 11:31:54] Cantidad=3
+[3/7/2026, 11:31:54] Resultado esperado=3x2
+[3/7/2026, 11:31:54] Buscando SKU 550886
+[3/7/2026, 11:31:58] SKU 550886 encontrado correctamente
+[3/7/2026, 11:31:58] Cantidad ajustada a 3
+[3/7/2026, 11:31:58] Producto agregado
+[3/7/2026, 11:31:58] SKU=550886 OK
+[3/7/2026, 11:31:58] Tiempo=4.17 segundos
+[3/7/2026, 11:31:58] ------------------------------------------------
+[3/7/2026, 11:31:58] INICIO SKU=550914
+[3/7/2026, 11:31:58] Cantidad=6
+[3/7/2026, 11:31:58] Resultado esperado=3x2
+[3/7/2026, 11:31:58] Buscando SKU 550914
+[3/7/2026, 11:36:27] ERROR SKU=550914
+[3/7/2026, 11:36:27] locator.fill: Test timeout of 300000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('combobox', { name: /Buscar articulo por SKU o/ }).first()[22m
+
