@@ -1,7 +1,12 @@
 require("dotenv").config();
 
+const fs = require("fs");
+const path = require("path");
+
 const OWNER = "MathiasArenas";
 const REPO = "promociones-ia";
+
+const TEMP_DIR = path.join(__dirname, "temp");
 
 async function listarEventos() {
 
@@ -33,8 +38,7 @@ async function listarEventos() {
 
     } catch (error) {
 
-        console.error(error);
-
+        console.error("Error al listar eventos:", error.message);
         return [];
 
     }
@@ -61,12 +65,25 @@ async function descargarArchivo(nombreArchivo) {
 
         const archivo = await response.json();
 
-        return Buffer.from(archivo.content, "base64");
+        // Crear carpeta temporal si no existe
+        if (!fs.existsSync(TEMP_DIR)) {
+            fs.mkdirSync(TEMP_DIR, { recursive: true });
+        }
+
+        // Ruta donde se guardará el Excel
+        const rutaArchivo = path.join(TEMP_DIR, nombreArchivo);
+
+        // Guardar archivo
+        fs.writeFileSync(
+            rutaArchivo,
+            Buffer.from(archivo.content, "base64")
+        );
+
+        return rutaArchivo;
 
     } catch (error) {
 
-        console.error(error);
-
+        console.error("Error al descargar archivo:", error.message);
         return null;
 
     }
