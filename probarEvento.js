@@ -1,9 +1,17 @@
-const eventos = require("./mcp/services/eventos");
+const { obtenerEvento } = require("./mcp/services/evento");
 
 (async () => {
 
-    const resultado = await eventos.listarEventos();
+    try {
 
-    console.log(JSON.stringify(resultado, null, 4));
+        const evento = await obtenerEvento(1);
+
+        console.log(JSON.stringify(evento, null, 4));
+
+    } catch (error) {
+
+        console.error(error.message);
+
+    }
 
 })();
