@@ -8,9 +8,6 @@ async function listarEventos() {
 
     const archivos = await github.listarEventos();
 
-    console.log("Archivos encontrados:");
-    console.table(archivos);
-
     const eventos = [];
 
     let id = 1;
@@ -19,24 +16,15 @@ async function listarEventos() {
 
         try {
 
-            console.log("--------------------------------");
-            console.log("Procesando:", archivo.nombre);
-
             // Descargar Excel
             const ruta = await github.descargarArchivo(archivo.nombre);
 
             if (!ruta) {
-                console.log("No se pudo descargar.");
                 continue;
             }
 
-            console.log("Ruta:", ruta);
-
             // Leer cabecera
             const datos = cabecera.leerCabecera(ruta);
-
-            console.log("Cabecera leída correctamente.");
-            console.log(datos);
 
             eventos.push({
 
@@ -60,23 +48,19 @@ async function listarEventos() {
 
             });
 
-            console.log("Evento agregado.");
-
         } catch (error) {
 
-            console.error("--------------------------------");
-            console.error("Error procesando:", archivo.nombre);
-            console.error(error);
-            console.error("--------------------------------");
+            console.warn(`Se omite ${archivo.nombre}: ${error.message}`);
 
         }
 
     }
-            eventos.sort((a, b) => {
 
-                return new Date(a.fechaInicio) - new Date(b.fechaInicio);
+    eventos.sort((a, b) => {
 
-            });
+        return new Date(a.fechaInicio) - new Date(b.fechaInicio);
+
+    });
 
     return {
 
@@ -88,6 +72,21 @@ async function listarEventos() {
 
 }
 
+/**
+ * Busca un evento por su ID.
+ */
+async function buscarEventoPorId(id) {
+
+    const catalogo = await listarEventos();
+
+    return catalogo.eventos.find(evento => evento.id === id);
+
+}
+
 module.exports = {
-    listarEventos
+
+    listarEventos,
+
+    buscarEventoPorId
+
 };

@@ -1,40 +1,54 @@
 const github = require("../github");
 
-const { listarEventos } = require("./eventos");
+const { buscarEventoPorId } = require("./eventos");
 
 const { leerCabecera } = require("../excel/cabecera");
 
 const { obtenerPromociones } = require("./promociones");
 
 /**
- * Obtiene un evento completo a partir de su ID.
- *
- * Flujo:
- * 1. Busca el evento en el catálogo.
- * 2. Descarga el Excel.
- * 3. Lee la cabecera.
- * 4. Obtiene las promociones normalizadas.
+ * Obtiene un evento completo.
  */
 async function obtenerEvento(id) {
 
-    // Obtener catálogo de eventos
-    const catalogo = await listarEventos();
-
-    // Buscar el evento solicitado
-    const evento = catalogo.eventos.find(e => e.id === id);
+    const evento = await buscarEventoPorId(id);
 
     if (!evento) {
+
         throw new Error(`No existe un evento con id ${id}.`);
+
     }
 
-    // Descargar nuevamente el Excel
     const rutaExcel = await github.descargarArchivo(evento.archivo);
 
     if (!rutaExcel) {
+
         throw new Error(`No fue posible descargar ${evento.archivo}.`);
+
     }
 
-    // Leer información del evento
+    const { generarResumen } =
+    require("./resumen");
+
+    const resumen =
+    generarResumen(promociones);
+
+    const resumen = generarResumen(promociones);
+
+    return {
+
+        id: evento.id,
+
+        archivo: evento.archivo,
+
+        cabecera,
+
+        resumen,
+
+        promociones
+
+    };
+
     const cabecera = leerCabecera(rutaExcel);
 
     const promociones = obtenerPromociones(rutaExcel);
@@ -54,5 +68,7 @@ async function obtenerEvento(id) {
 }
 
 module.exports = {
+
     obtenerEvento
+
 };

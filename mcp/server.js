@@ -13,6 +13,18 @@ const {
   require("@modelcontextprotocol/sdk/types.js");
 
 const {
+    generarCasos
+} = require("./services/casos");
+
+const {
+  listarEventos
+} = require("./services/eventos");
+
+const {
+  obtenerEvento
+} = require("./services/evento");
+
+const {
   ejecutarAltaArticulos,
   ejecutarAltaArticulosMasivo
 } = require("./simulador");
@@ -23,7 +35,7 @@ const {
 
 const server = new Server(
   {
-    name: "simulador-promociones",
+    name: "mcp-promociones",
     version: "2.0.0"
   },
   {
@@ -42,6 +54,93 @@ server.setRequestHandler(
   async () => ({
     tools: [
 
+      {
+  name: "listar_eventos",
+
+  description:
+    "Lista los eventos de promociones disponibles en GitHub. Utiliza esta herramienta cuando necesites conocer qué eventos existen antes de consultar uno en detalle.",
+
+  inputSchema: {
+
+    type: "object",
+
+    properties: {
+
+    }
+
+  }
+
+},
+
+// ======================================
+// GENERAR CASOS
+// ======================================
+
+{
+    name: "generar_casos",
+
+    description:
+        "Genera casos de prueba para un evento de promociones.",
+
+    inputSchema: {
+
+        type: "object",
+
+        properties: {
+
+            id: {
+
+                type: "integer",
+
+                description:
+                    "Identificador del evento."
+
+            }
+
+        },
+
+        required: [
+            "id"
+        ]
+
+    }
+
+},
+
+// ======================================
+// Obtener evento
+// ======================================
+{
+  name: "obtener_evento",
+
+  description:
+    "Obtiene el detalle completo de un evento de promociones, incluyendo cabecera, resumen y promociones normalizadas. Utiliza esta herramienta antes de generar casos de prueba.",
+
+  inputSchema: {
+
+    type: "object",
+
+    properties: {
+
+      id: {
+
+        type: "integer",
+
+        description:
+          "Identificador del evento."
+
+      }
+
+    },
+
+    required: [
+      "id"
+    ]
+
+  }
+
+},
+
       // ======================================
       // ALTA INDIVIDUAL
       // ======================================
@@ -51,7 +150,7 @@ server.setRequestHandler(
         name: "alta_articulos",
 
         description:
-          "Ejecuta Playwright utilizando una lista de productos enviada por el agente.",
+          "Ejecuta Playwright para simular una compra utilizando los productos indicados y validar el comportamiento de una promoción.",
 
         inputSchema: {
 
@@ -138,7 +237,7 @@ server.setRequestHandler(
           "alta_articulos_masivo",
 
         description:
-          "Ejecuta el simulador múltiple utilizando un archivo JSON.",
+          "Ejecuta Playwright utilizando un archivo JSON que contiene múltiples casos de prueba.",
 
         inputSchema: {
 
@@ -180,6 +279,105 @@ server.setRequestHandler(
 
   async (request) => {
 
+
+    if (
+    request.params.name ===
+    "listar_eventos"
+) {
+
+    const resultado =
+        await listarEventos();
+
+    return {
+
+        content: [
+
+            {
+
+                type: "text",
+
+                text: JSON.stringify(
+                    resultado,
+                    null,
+                    2
+                )
+
+            }
+
+        ]
+
+    };
+
+}
+
+if (
+    request.params.name ===
+    "obtener_evento"
+) {
+
+    const id =
+        request.params.arguments?.id;
+
+    const resultado =
+        await obtenerEvento(id);
+
+    return {
+
+        content: [
+
+            {
+
+                type: "text",
+
+                text: JSON.stringify(
+                    resultado,
+                    null,
+                    2
+                )
+
+            }
+
+        ]
+
+    };
+
+
+
+if (
+    request.params.name ===
+    "generar_casos"
+) {
+
+    const idEvento =
+        request.params.arguments?.idEvento;
+
+    const resultado =
+        await generarCasos(idEvento);
+
+    return {
+
+        content: [
+
+            {
+
+                type: "text",
+
+                text: JSON.stringify(
+                    resultado,
+                    null,
+                    2
+                )
+
+            }
+
+        ]
+
+    };
+
+}
+
+
+}
     // ======================================
     // ALTA INDIVIDUAL
     // ======================================
